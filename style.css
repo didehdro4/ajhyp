@@ -1,4 +1,335 @@
-h1 {
-color: orange;
-text-align: center;
+css file
+.css-selector {
+    font-family: 'Poiret One', cursive;
+    font-family: 'VT323', monospace;
+}
+
+html {
+  background-image: url("hbg.jpg" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 26%;
+}
+
+head {
+    color: white;
+}
+
+body {
+  background: transparent;
+  background-size: cover;
+}
+p    {
+	color: white;
+    text-align: center;
+    text-shadow: 0 0 5px #FFFFFF;
+	
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+#hpheaders {
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poiret One;
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 40px;
+}
+
+.hphome {
+    position: relative;
+    font-size: 100%;
+    float: left;
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hpportfolio{
+    position: relative;
+    font-size: 80%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hpcontact {
+    position: relative;
+    font-size: 80%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.preview {
+    position: absolute;
+    width: 900px;
+    height:150px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.post1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+    
+}
+.post2 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.post3 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.post4 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.post5 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.post6 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.post7 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.post8 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.post9 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+}
+
+
+
+.slick-prev {
+    background: transparent;
+    border: transparent;
+    text: transparent;
+}
+
+.slick-next {
+    background: transparent;
+    border: transparent;
+}
+
+
+.first {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    top:640px; 
+	left:auto;
+	right:auto;
+	color:white;
+}
+
+.second {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 600%;
+    top:700px; 
+	left:auto;
+	right:auto;
+	color:white;
+	z-index: 2;
+}
+
+
+.third {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    top:890px; 
+	left:auto;
+	right:auto;
+	color:white;
+}
+
+.fourth {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    top:915px; 
+	left:auto;
+	right:auto;
+	color:white;
+}
+
+
+
+
+
+
+
+
+#ppheaders {
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poiret One;
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+	margin-top: 40px;
+}
+
+.pphome {
+    position: relative;
+    font-size: 80%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ppportfolio{
+    position: relative;
+    font-size: 100%;
+    float: left;
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ppcontact {
+    position: relative;
+    font-size: 80%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cpheaders {
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poiret One;
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+	margin-top: 40px;
+}
+
+.cphome {
+    position: relative;
+    font-size: 80%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cpportfolio{
+    position: relative;
+    font-size: 80%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cpcontact {
+    position: relative;
+    font-size: 100%;
+    float: left;
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
