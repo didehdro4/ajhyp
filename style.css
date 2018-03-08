@@ -5,10 +5,7 @@ css file
 }
 
 html {
-  background-image: url("hbg.jpg" );
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 26%;
+    background: black;
 }
 
 head {
@@ -16,9 +13,8 @@ head {
 }
 
 body {
-  background: transparent;
-  background-size: cover;
 }
+
 p    {
 	color: white;
     text-align: center;
@@ -52,7 +48,28 @@ a:active {
 
 
 
+#hpbg {
+  position: relative;
+  background-image: url("hbg.jpg" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 26%;
+}
 
+#ppbg {
+  position: relative;
+  background-image: url("pbg.jpg" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 3%;
+}
+
+#cpbg {
+  background-image: url("s-2.png" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 16%;
+}
 
 
 
@@ -141,7 +158,7 @@ a:active {
     height: 150px;
     margin-left: 5px;
     margin-right: 5px;
-
+    
 }
 .post6 {
     position: relative;
@@ -238,13 +255,107 @@ a:active {
 	color:white;
 }
 
+.fifth {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    top:890px; 
+	left:auto;
+	right:auto;
+	color:white;
+}
 
+.sixth {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    top:915px; 
+	left:auto;
+	right:auto;
+	color:white;
+}
 
+.seventh {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    top:420px; 
+	left:auto;
+	right:auto;
+	color:white;
 
+}
 
+.eight {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    top:450px; 
+	left:auto;
+	right:auto;
+	color:white;
 
+}
 
+.nine {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    top:530px; 
+	left:auto;
+	right:auto;
+	color:white;
 
+}
+
+.ten {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    top:560px; 
+	left:auto;
+	right:auto;
+	color:white;
+
+}
+
+.eleven {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    top:640px; 
+	left:auto;
+	right:auto;
+	color:white;
+
+}
+
+.twelve {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    top:670px; 
+	left:auto;
+	right:auto;
+	color:white;
+
+}
 #ppheaders {
     width: 200px;
     height: 30px;
