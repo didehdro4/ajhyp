@@ -19,7 +19,7 @@ p    {
 	color: white;
     text-align: center;
     text-shadow: 0 0 5px #FFFFFF;
-
+	
 }
 
 a:link {
@@ -43,9 +43,6 @@ a:active {
     text-decoration: none;
 }
 
-
-
-
 * { box-sizing: border-box; }
 .video-background {
   background: #000;
@@ -65,7 +62,6 @@ a:active {
 }
 
 
-
 #hpbg {
   position: relative;
   background-image: url("hbg.png" );
@@ -79,16 +75,22 @@ a:active {
   background-image: url("pbg.jpg" );
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 3%;
+  background-position-y: 6%;
 }
 
 #cpbg {
-  background-image: url("s-2.png" );
+  background-image: url("aaaa_1.mp4" );
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 16%;
 }
 
+.dddd{
+    color: white;
+    background: transparent;
+    border: transparent;
+    font-size: 300%;
+}
 
 
 #hpheaders {
@@ -100,7 +102,6 @@ a:active {
     font-size: 80%;
     margin-left: auto;
     margin-right: auto;
-	margin-top: 40px;
 }
 
 .hphome {
@@ -132,9 +133,10 @@ a:active {
 
 .preview {
     position: absolute;
-    width: 900px;
+    width: 150px;
     height:150px;
     margin-top: 50px;
+    margin-bottom: -20px;
     margin-left: auto;
     margin-right: auto;
 
@@ -142,71 +144,91 @@ a:active {
 
 
 .post1 {
+    background-image: url("post1.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 150px;
     height: 150px;
-    margin-right: 5px;
-
+    margin-top: 10px;
+    
 }
 .post2 {
+    background-image: url("post2.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 150px;
     height: 150px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 10px;
 }
 .post3 {
+    background-image: url("post3.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 150px;
     height: 150px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 10px;
 }
 .post4 {
+    background-image: url("post4.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 150px;
     height: 150px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 10px;
 
 }
 .post5 {
+    background-image: url("post5.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 150px;
     height: 150px;
-    margin-left: 5px;
-    margin-right: 5px;
-
+    margin-top: 10px;
+    
 }
 .post6 {
+    background-image: url("post6.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 150px;
     height: 150px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 10px;
 
 }
 .post7 {
+    background-image: url("post7.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 150px;
     height: 150px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 10px;
 
 }
 .post8 {
+    background-image: url("post8.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 150px;
     height: 150px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 10px;
 
 }
 .post9 {
+    background-image: url("post9.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     width: 150px;
     height: 150px;
-    margin-left: 5px;
+    margin-top: 10px;
 }
 
 
@@ -224,24 +246,24 @@ a:active {
 
 
 .first {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
     font-size: 100%;
-    top:640px;
+    top:430px; 
 	left:auto;
 	right:auto;
 	color:white;
 }
 
 .second {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
     font-size: 600%;
-    top:700px;
+    top:490px; 
 	left:auto;
 	right:auto;
 	color:white;
@@ -250,60 +272,63 @@ a:active {
 
 
 .third {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
-    font-size: 100%;
-    top:890px;
+    font-size: 80%;
+    top:670px; 
 	left:auto;
 	right:auto;
 	color:white;
 }
 
 .fourth {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
-    font-size: 100%;
-    top:915px;
+    font-size: 80%;
+    top:690px; 
 	left:auto;
 	right:auto;
 	color:white;
 }
 
 .fifth {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
-    font-size: 100%;
-    top:890px;
+    font-size: 80%;
+    top:670px; 
 	left:auto;
 	right:auto;
 	color:white;
+	z-index: 0;
 }
 
 .sixth {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
-    font-size: 100%;
-    top:915px;
+    font-size: 80%;
+    top:690px; 
 	left:auto;
 	right:auto;
 	color:white;
+	
+	z-index: 1;
 }
 
 .seventh {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
     font-size: 100%;
-    top:420px;
+    top:200px; 
 	left:auto;
 	right:auto;
 	color:white;
@@ -311,12 +336,12 @@ a:active {
 }
 
 .eight {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
     font-size: 100%;
-    top:450px;
+    top:230px; 
 	left:auto;
 	right:auto;
 	color:white;
@@ -324,12 +349,12 @@ a:active {
 }
 
 .nine {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
     font-size: 100%;
-    top:530px;
+    top:320px; 
 	left:auto;
 	right:auto;
 	color:white;
@@ -337,12 +362,12 @@ a:active {
 }
 
 .ten {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
     font-size: 100%;
-    top:560px;
+    top:340px; 
 	left:auto;
 	right:auto;
 	color:white;
@@ -350,12 +375,12 @@ a:active {
 }
 
 .eleven {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
     font-size: 100%;
-    top:640px;
+    top:420px; 
 	left:auto;
 	right:auto;
 	color:white;
@@ -363,17 +388,26 @@ a:active {
 }
 
 .twelve {
-    position:absolute;
-    width:100%;
+    position:absolute; 
+    width:100%; 
     text-align:center;
     font-family: 'Poiret One', cursive;
     font-size: 100%;
-    top:670px;
+    top:450px; 
 	left:auto;
 	right:auto;
 	color:white;
 
 }
+
+
+
+
+
+
+
+
+
 #ppheaders {
     width: 200px;
     height: 30px;
@@ -384,7 +418,6 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-	margin-top: 40px;
 }
 
 .pphome {
@@ -412,7 +445,101 @@ a:active {
     margin-right: 10px;
 }
 
+#categories {
+    position: relative;
+    float: top;
+    width: 980px;
+    height:350px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+
+.c1 {
+    width: 150px;
+    height: 150px;
+    background-image: url("studio.png" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.c2 {
+    width: 150px;
+    height: 150px;
+    background-image: url("lab.png" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c3 {
+    width: 150px;
+    height: 150px;
+    background-image: url("photography.png" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c4 {
+    width: 150px;
+    height: 150px;
+    background-image: url("post4.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c5 {
+    width: 150px;
+    height: 150px;
+    background-image: url("post5.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c6 {
+    width: 150px;
+    height: 150px;
+    background-image: url("post6.JPG" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.final {
+    width: 878px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 70px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 
 
@@ -435,7 +562,6 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-	margin-top: 40px;
 }
 
 .cphome {
