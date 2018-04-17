@@ -144,7 +144,7 @@ a:active {
 
 
 .post1 {
-    background-image: url("post1.JPG" );
+    background-image: url("sdddd.png" );
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -154,7 +154,7 @@ a:active {
     
 }
 .post2 {
-    background-image: url("post2.JPG" );
+    background-image: url("post2.png" );
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -172,7 +172,7 @@ a:active {
     margin-top: 10px;
 }
 .post4 {
-    background-image: url("post4.JPG" );
+    background-image: url("post4.png" );
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -182,7 +182,7 @@ a:active {
 
 }
 .post5 {
-    background-image: url("post5.JPG" );
+    background-image: url("post5.png" );
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -192,7 +192,7 @@ a:active {
     
 }
 .post6 {
-    background-image: url("post6.JPG" );
+    background-image: url("post6.png" );
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -321,6 +321,8 @@ a:active {
 	
 	z-index: 1;
 }
+
+
 
 .seventh {
     position:absolute; 
@@ -518,30 +520,42 @@ a:active {
 }
 
 .final {
-    width: 878px;
+    width: 664px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
-    margin: 70px;
+    margin: 90px;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     z-index: 2;
+    
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-
+.ddss {
+    background-image: url("sdd.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    width: 700px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -559,8 +573,6 @@ a:active {
     margin-right: auto;
     font-family: Poiret One;
     font-size: 80%;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 10px;
 }
 
@@ -587,4 +599,134 @@ a:active {
     margin-top: -5px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.showsite {
+    position: relative;
+    width: 900px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dd{
+    width: 900px;
+    height: 700px;
+}
+
+
+.showsited {
+    position: relative;
+    width: 1100px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ddd{
+    width: 1100px;
+    height: 700px;
+}
+
+
+.fifthd {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 80%;
+    top:870px; 
+	left:auto;
+	right:auto;
+	color:white;
+	z-index: 0;
+}
+
+.sixthd {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 80%;
+    top:890px; 
+	left:auto;
+	right:auto;
+	color:white;
+	
+	z-index: 1;
+}
+
+
+.fifthe {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 80%;
+    top:1270px; 
+	left:auto;
+	right:auto;
+	color:white;
+	z-index: 0;
+}
+
+.sixthe {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 80%;
+    top:1290px; 
+	left:auto;
+	right:auto;
+	color:white;
+	
+	z-index: 1;
+}
+
+.fifthdf {
+    display: block;
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 80%;
+    top:1380px; 
+	left:auto;
+	right:auto;
+	bottom: 50px;
+	color:white;
+	z-index: 0;
+}
+
+.sixthdf {
+    display: block;
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 80%;
+    top:1400px; 
+	left:auto;
+	right:auto;
+	
+	bottom: 50px;
+	color:white;
+	
+	z-index: 1;
 }

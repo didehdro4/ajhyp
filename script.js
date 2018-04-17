@@ -1,6 +1,4 @@
-$(".post1").click(function() {
-    alert("jQuery works!");
-});
+
 
 $('.lazy').slick({
   lazyLoad: 'ondemand',
@@ -28,9 +26,3 @@ $('#categories').slick({
   appendArrows: false
 });
 
-
-(function($){
-        $(window).on("load",function(){
-            $(".content").mCustomScrollbar();
-        });
-    })(jQuery);
