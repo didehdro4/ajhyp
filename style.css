@@ -212,7 +212,7 @@ a:active {
 
 }
 .post8 {
-    background-image: url("post8.JPG" );
+    background-image: url("post8.png" );
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -321,6 +321,67 @@ a:active {
 	
 	z-index: 1;
 }
+.fffff {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 80%;
+    top:1670px; 
+	left:auto;
+	right:auto;
+	color:white;
+	z-index: 0;
+}
+
+.sssss {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 80%;
+    top:1690px; 
+	left:auto;
+	right:auto;
+	color:white;
+	
+	z-index: 1;
+}
+
+.ffff {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 80%;
+    top:1170px; 
+	left:auto;
+	right:auto;
+	color:white;
+	z-index: 0;
+}
+
+.ssss {
+    position:absolute; 
+    width:100%; 
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+    font-size: 80%;
+    top:1190px; 
+	left:auto;
+	right:auto;
+	color:white;
+	
+	z-index: 1;
+}
+
+.blblbl {
+    font-family: 'VT323';
+    font-size: 300%;
+    position: relative;
+    top: 60px;
+}
+
 
 
 
@@ -641,6 +702,14 @@ a:active {
 .ddd{
     width: 1100px;
     height: 700px;
+}
+
+.ddde{
+    position: relative;
+    display: block;
+    width: 1100px;
+    height: 700px;
+    top: 50px;
 }
 
 
